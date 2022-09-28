@@ -44,7 +44,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2022-09-16T15:30:17.000Z">
-<meta property="article:modified_time" content="2022-09-19T01:07:55.946Z">
+<meta property="article:modified_time" content="2022-09-28T11:50:24.525Z">
 <meta property="article:author" content="bitezhang">
 <meta property="article:tag" content="JSP">
 <meta name="twitter:card" content="summary">
@@ -1628,7 +1628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"../../../../js/app.js","parallax":"../../../../js/plugins/parallax.js","rightMenu":"../../../../js/plugins/rightMenu.js","rightMenus":"../../../../js/plugins/rightMenus.js","sites":"../../../../js/plugins/tags/sites.js","friends":"../../../../js/plugins/tags/friends.js","contributors":"../../../../js/plugins/tags/contributors.js","search":"../../../../js/search/hexo.js"},"css":{"style":"../../../../css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1664365060410),
+    lastupdate: new Date(1664365841533),
     sidebar: {
       for_page: ["blogger","category","tagcloud","text","webinfo"],
       for_post: ["toc"],
@@ -2531,7 +2531,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211115114112662.png" class="lazyload" data-srcset="imgs/image-20211115114112662.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115114112662"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194259.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194259.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <h3 id="2-1-案例准备"><a href="#2-1-案例准备" class="headerlink" title="2.1 案例准备"></a>2.1 案例准备</h3><h4 id="2-1-1-创建数据库数据表"><a href="#2-1-1-创建数据库数据表" class="headerlink" title="2.1.1 创建数据库数据表"></a>2.1.1 创建数据库数据表</h4><ul>
@@ -2585,7 +2585,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </blockquote>
 <p>JSP是对Servlet的一种高级封装，一个JSP文件底层就是一个Servlet类。</p>
 <p>JSP文件需要依赖服务器运行，当客户端请求一个JSP文件时，JSP文件会在服务器中转换成Servlet来执行。</p>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115143508765.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115143508765.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115143508765"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194322.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194322.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <p>使用JSP的必要性：</p>
 <p>​	我们将动态网页显示使用JSP完成，在HTML标签中嵌入Java代码的形式开发动态网页更为便捷。</p>
 <h3 id="3-2-JSP开发的语法规则"><a href="#3-2-JSP开发的语法规则" class="headerlink" title="3.2 JSP开发的语法规则"></a>3.2 JSP开发的语法规则</h3><h4 id="3-2-1-JSP文档规范"><a href="#3-2-1-JSP文档规范" class="headerlink" title="3.2.1 JSP文档规范"></a>3.2.1 JSP文档规范</h4><ul>
@@ -2809,19 +2809,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <h4 id="3-6-1-pageContext"><a href="#3-6-1-pageContext" class="headerlink" title="3.6.1 pageContext"></a>3.6.1 pageContext</h4><blockquote>
 <p>pageConext对象 只作用于当前JSP文件</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115192340756.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115192340756.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115192340756"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194341.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194341.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="3-6-2-request"><a href="#3-6-2-request" class="headerlink" title="3.6.2 request"></a>3.6.2 request</h4><blockquote>
 <p>request作用于一次请求</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193904951.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193904951.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115193904951"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194352.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194352.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="3-6-3-session"><a href="#3-6-3-session" class="headerlink" title="3.6.3 session"></a>3.6.3 session</h4><blockquote>
 <p>session对象作用于用户一次连接的多次请求</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193438233.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193438233.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115193438233"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194401.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194401.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="3-6-4-application"><a href="#3-6-4-application" class="headerlink" title="3.6.4 application"></a>3.6.4 application</h4><blockquote>
 <p>application实际上就是servletContext对象，作用于一个web应用的所有用户</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193814764.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115193814764.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115193814764"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194414.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194414.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="3-6-5-使用域对象传值示例"><a href="#3-6-5-使用域对象传值示例" class="headerlink" title="3.6.5 使用域对象传值示例"></a>3.6.5 使用域对象传值示例</h4><ul>
 <li><p>Servlet类</p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.qfedu.jsp.servlets;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span> 千锋涛哥</span></span><br><span class="line"><span class="comment"> * 公众号： Java架构栈</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@WebServlet(&quot;/TestServlet&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TestServlet</span> <span class="keyword">extends</span> <span class="title class_">HttpServlet</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doGet</span><span class="params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line">        doPost(req, resp);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> <span class="title function_">doPost</span><span class="params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="keyword">throws</span> ServletException, IOException &#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//1.分别通过 request、session、application传值</span></span><br><span class="line">        request.setAttribute(<span class="string">&quot;key1&quot;</span>,<span class="string">&quot;value1&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="type">HttpSession</span> <span class="variable">session</span> <span class="operator">=</span> request.getSession();</span><br><span class="line">        session.setAttribute(<span class="string">&quot;key2&quot;</span>,<span class="string">&quot;value2&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="type">ServletContext</span> <span class="variable">application</span> <span class="operator">=</span> getServletContext();</span><br><span class="line">        application.setAttribute(<span class="string">&quot;key3&quot;</span>,<span class="string">&quot;value3&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//2.转发到test3.jsp</span></span><br><span class="line">        request.getRequestDispatcher(<span class="string">&quot;test3.jsp&quot;</span>).forward(request,response);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -2829,7 +2829,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li><p>JSP页面</p>
   <figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">&quot;text/html;charset=UTF-8&quot;</span> language=<span class="string">&quot;java&quot;</span> %&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;title&gt;Title&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">Test3</span><br><span class="line">&lt;hr/&gt;</span><br><span class="line"></span><br><span class="line">&lt;%</span><br><span class="line">    <span class="type">String</span> <span class="variable">s1</span> <span class="operator">=</span> (String) request.getAttribute(<span class="string">&quot;key1&quot;</span>);</span><br><span class="line">    <span class="type">String</span> <span class="variable">s2</span> <span class="operator">=</span> (String) session.getAttribute(<span class="string">&quot;key2&quot;</span>);</span><br><span class="line">    <span class="type">String</span> <span class="variable">s3</span> <span class="operator">=</span> (String) application.getAttribute(<span class="string">&quot;key3&quot;</span>);</span><br><span class="line">%&gt;</span><br><span class="line">request取出的数据:&lt;%=s1%&gt; &lt;br/&gt;</span><br><span class="line">session取出的数据:&lt;%=s2%&gt; &lt;br/&gt;</span><br><span class="line">application取出的数据:&lt;%=s3%&gt; &lt;br/&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="3-7-JSP开发应用"><a href="#3-7-JSP开发应用" class="headerlink" title="3.7 JSP开发应用"></a>3.7 JSP开发应用</h3><p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115210009119.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211115210009119.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211115210009119"></p>
+<h3 id="3-7-JSP开发应用"><a href="#3-7-JSP开发应用" class="headerlink" title="3.7 JSP开发应用"></a>3.7 JSP开发应用</h3><p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194427.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194427.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <ul>
 <li>JSP负责项目中的视图呈现</li>
 <li>Servlet负责接收、处理用户请求</li>
@@ -2872,7 +2872,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <h3 id="4-3-EL访问域对象"><a href="#4-3-EL访问域对象" class="headerlink" title="4.3 EL访问域对象"></a>4.3 EL访问域对象</h3><blockquote>
 <p>如果从Servlet分别使用request、session、application同时向JSP页面传递数据，并且key都相同；那么在JSP页面直接使用${key}获取的是什么数据呢？ 如何能够获取我们想要访问的域对象中的数据呢？</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116003956162.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116003956162.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116003956162"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194439.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194439.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="4-3-1-key-获取哪个域对象的数据呢？"><a href="#4-3-1-key-获取哪个域对象的数据呢？" class="headerlink" title="4.3.1 ${key}获取哪个域对象的数据呢？"></a>4.3.1 ${key}获取哪个域对象的数据呢？</h4><ul>
 <li>四个域对象的访问从小到大依次是：pageContext–&gt;request–&gt;session–&gt;application</li>
 <li>如果没有指定域对象，${key}默认获取最小域对象中的数据</li>
@@ -3043,7 +3043,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <ol>
 <li><p>下载JSTL标签库的依赖jar  <a target="_blank" rel="noopener" href="https://mvnrepository.com/">https://mvnrepository.com/</a></p>
 <ul>
-<li><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116110631598.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116110631598.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116110631598"></li>
+<li><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194451.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194451.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></li>
 <li><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116110657149.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116110657149.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116110657149"></li>
 </ul>
 </li>
@@ -3093,7 +3093,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li>删除图书信息</li>
 </ul>
 </blockquote>
-<h3 id="6-1-书城后台管理系统业务流程"><a href="#6-1-书城后台管理系统业务流程" class="headerlink" title="6.1 书城后台管理系统业务流程"></a>6.1 书城后台管理系统业务流程</h3><p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116155037789.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211116155037789.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116155037789"></p>
+<h3 id="6-1-书城后台管理系统业务流程"><a href="#6-1-书城后台管理系统业务流程" class="headerlink" title="6.1 书城后台管理系统业务流程"></a>6.1 书城后台管理系统业务流程</h3><p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194501.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194501.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h3 id="6-2-项目的MVC分层架构"><a href="#6-2-项目的MVC分层架构" class="headerlink" title="6.2 项目的MVC分层架构"></a>6.2 项目的MVC分层架构</h3><p>将项目中实现不同业务的代码进行分离:</p>
 <ul>
 <li><p>视图View — jsp负责进行客户端的页面呈现</p>
@@ -3185,7 +3185,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116200041611.png" class="lazyload" data-srcset="imgs/image-20211116200041611.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116200041611"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194537.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194537.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3195,7 +3195,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116200652142.png" class="lazyload" data-srcset="imgs/image-20211116200652142.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116200652142"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194558.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194558.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3205,7 +3205,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116200932491.png" class="lazyload" data-srcset="imgs/image-20211116200932491.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116200932491"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194615.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194615.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <h4 id="6-8-3-添加图书"><a href="#6-8-3-添加图书" class="headerlink" title="6.8.3 添加图书"></a>6.8.3 添加图书</h4><table>
@@ -3215,7 +3215,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116202227915.png" class="lazyload" data-srcset="imgs/image-20211116202227915.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116202227915"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194630.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194630.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3225,7 +3225,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116202457419.png" class="lazyload" data-srcset="imgs/image-20211116202457419.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116202457419"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194645.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194645.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3235,7 +3235,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116204213194.png" class="lazyload" data-srcset="imgs/image-20211116204213194.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116204213194"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194656.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194656.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3245,7 +3245,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116203906248.png" class="lazyload" data-srcset="imgs/image-20211116203906248.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116203906248"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194711.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194711.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <p>注意：如果添加的中文出现乱码则添加编码过滤器</p>
@@ -3256,7 +3256,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116223248436.png" class="lazyload" data-srcset="imgs/image-20211116223248436.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116223248436"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194723.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194723.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3266,7 +3266,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116223450672.png" class="lazyload" data-srcset="imgs/image-20211116223450672.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116223450672"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194736.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194736.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3276,7 +3276,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116224720659.png" class="lazyload" data-srcset="imgs/image-20211116224720659.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116224720659"></td>
+<td><img src="C:/Users/zdy/AppData/Roaming/Typora/typora-user-images/image-20220928194755120.png" class="lazyload" data-srcset="C:/Users/zdy/AppData/Roaming/Typora/typora-user-images/image-20220928194755120.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220928194755120"></td>
 </tr>
 </tbody></table>
 <h4 id="6-8-5-删除图书"><a href="#6-8-5-删除图书" class="headerlink" title="6.8.5 删除图书"></a>6.8.5 删除图书</h4><table>
@@ -3286,7 +3286,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116231444817.png" class="lazyload" data-srcset="imgs/image-20211116231444817.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116231444817"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194805.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194805.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3296,7 +3296,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116231154693.png" class="lazyload" data-srcset="imgs/image-20211116231154693.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116231154693"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194814.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194814.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <h4 id="6-8-6-修改图书"><a href="#6-8-6-修改图书" class="headerlink" title="6.8.6 修改图书"></a>6.8.6 修改图书</h4><table>
@@ -3306,7 +3306,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116235257984.png" class="lazyload" data-srcset="imgs/image-20211116235257984.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116235257984"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194842.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194842.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3316,7 +3316,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211116235646132.png" class="lazyload" data-srcset="imgs/image-20211116235646132.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211116235646132"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194851.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194851.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3326,7 +3326,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211117001900308.png" class="lazyload" data-srcset="imgs/image-20211117001900308.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117001900308"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194902.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194902.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <table>
@@ -3336,14 +3336,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211117002311401.png" class="lazyload" data-srcset="imgs/image-20211117002311401.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117002311401"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194915.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194915.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 <h2 id="七、分页功能实现"><a href="#七、分页功能实现" class="headerlink" title="七、分页功能实现"></a>七、分页功能实现</h2><h3 id="7-1-分页概念"><a href="#7-1-分页概念" class="headerlink" title="7.1 分页概念"></a>7.1 分页概念</h3><blockquote>
 <p>分页是web应用开发中非常重要的一个业务实现。数据库中的数据可能很多（成千上万、几十万、上百万都又可能），不能将这些数据全部查询出来并显示到列表页面。一般我们需要为用户提供<code>翻页功能</code>，例如一次显示10行&#x2F;20行，然后点击下一页查看接下来的10行&#x2F;20行。</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117010033508.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117010033508.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117010033508"></p>
-<h3 id="7-2-分页实现思路"><a href="#7-2-分页实现思路" class="headerlink" title="7.2 分页实现思路"></a>7.2 分页实现思路</h3><p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117013457645.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117013457645.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117013457645"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194931.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194931.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<h3 id="7-2-分页实现思路"><a href="#7-2-分页实现思路" class="headerlink" title="7.2 分页实现思路"></a>7.2 分页实现思路</h3><p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194939.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194939.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h3 id="7-3-分页代码实现"><a href="#7-3-分页代码实现" class="headerlink" title="7.3 分页代码实现"></a>7.3 分页代码实现</h3><h4 id="7-3-1-BookDAO"><a href="#7-3-1-BookDAO" class="headerlink" title="7.3.1 BookDAO"></a>7.3.1 BookDAO</h4><ul>
 <li><p>分页查询数据</p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* 分页查询图书信息</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> start 查询数据的起始行索引</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param</span> limit 最多返回的数据记录数（每页显示的条数）</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return</span> 返回的集合中只包含一页的数据</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> List&lt;Book&gt; <span class="title function_">selectBooks</span><span class="params">(<span class="type">int</span> start,<span class="type">int</span> limit)</span>&#123;</span><br><span class="line">    List&lt;Book&gt; bookList = <span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">sql</span> <span class="operator">=</span> <span class="string">&quot;select book_id bookId,book_name bookName,book_author bookAuthor,book_price bookPrice,book_img_path bookImgPath,book_desc bookDesc,book_stcok bookStock,book_type bookType from books limit ?,?&quot;</span>;</span><br><span class="line">        <span class="type">QueryRunner</span> <span class="variable">queryRunner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">QueryRunner</span>(DruidUtils.getDataSource());</span><br><span class="line">        bookList = </span><br><span class="line">            queryRunner.query(sql, <span class="keyword">new</span> <span class="title class_">BeanListHandler</span>&lt;Book&gt;(Book.class),start,limit);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> bookList;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -3373,7 +3373,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li>Servlet类主要负责流程控制，在上述代码实现过程中也涉及到了分页业务，不可理。该如何解决呢？</li>
 </ol>
 </blockquote>
-<h4 id="7-4-1-PageHelper封装思路"><a href="#7-4-1-PageHelper封装思路" class="headerlink" title="7.4.1 PageHelper封装思路"></a>7.4.1 PageHelper封装思路</h4><p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117023144522.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/07-JSP/imgs/image-20211117023144522.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117023144522"></p>
+<h4 id="7-4-1-PageHelper封装思路"><a href="#7-4-1-PageHelper封装思路" class="headerlink" title="7.4.1 PageHelper封装思路"></a>7.4.1 PageHelper封装思路</h4><p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194953.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928194953.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h4 id="7-4-2-创建分页帮助类PageHelper"><a href="#7-4-2-创建分页帮助类PageHelper" class="headerlink" title="7.4.2  创建分页帮助类PageHelper"></a>7.4.2  创建分页帮助类PageHelper</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.qfedu.bookmall.ms.utils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span> 分页帮助类</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span> 千锋涛哥</span></span><br><span class="line"><span class="comment"> * 公众号： Java架构栈</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">PageHelper</span>&lt;T&gt; &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//存放页面数据的List集合</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;T&gt; list;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//存放当前页码</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> pageNum;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//存放总页数</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> pageCount;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//无参构造器</span></span><br><span class="line">    <span class="comment">//全参构造器</span></span><br><span class="line">    <span class="comment">//get和set</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h4 id="7-4-3-BookService"><a href="#7-4-3-BookService" class="headerlink" title="7.4.3 BookService"></a>7.4.3 BookService</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分页查询图书信息</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> pageNum 页码</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> pageSize 每页显示的条数</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"><span class="keyword">public</span> PageHelper&lt;Book&gt; <span class="title function_">listBooksByPage</span><span class="params">( <span class="type">int</span> pageNum,<span class="type">int</span> pageSize)</span>&#123;</span><br><span class="line">    <span class="comment">//1.查询当前页码的数据</span></span><br><span class="line">    <span class="type">int</span> <span class="variable">start</span> <span class="operator">=</span> (pageNum-<span class="number">1</span>)*pageSize;</span><br><span class="line">    <span class="type">int</span> <span class="variable">limit</span> <span class="operator">=</span> pageSize;</span><br><span class="line">    List&lt;Book&gt; bookList = bookDAO.selectBooks(start,limit);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//2.查询并计算图书总页数</span></span><br><span class="line">    <span class="comment">//a.查询总记录</span></span><br><span class="line">    <span class="type">long</span> <span class="variable">count</span> <span class="operator">=</span> bookDAO.selectBookCount();</span><br><span class="line">    <span class="comment">//b.根据总记录数和每页显示的条数，计算总页数</span></span><br><span class="line">    <span class="type">long</span> <span class="variable">pageCount</span> <span class="operator">=</span> count%pageSize == <span class="number">0</span> ? count/pageSize: count/pageSize+<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//3.将分页数据都放到一个PageHelper对象</span></span><br><span class="line">    PageHelper&lt;Book&gt; bookPageHelper = <span class="keyword">new</span> <span class="title class_">PageHelper</span>&lt;Book&gt;(bookList, pageNum, (<span class="type">int</span>)pageCount);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> bookPageHelper;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -3387,7 +3387,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </tr>
 </thead>
 <tbody><tr>
-<td><img src="imgs/image-20211117024307271.png" class="lazyload" data-srcset="imgs/image-20211117024307271.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117024307271"></td>
+<td><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928195010.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/jsp/20220928195010.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></td>
 </tr>
 </tbody></table>
 
@@ -3414,10 +3414,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-09-19T09:07:55+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-09-28T19:50:24+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年9月19日</p>
+    <p>更新于：2022年9月28日</p>
   </a>
 </div>
 
@@ -4257,7 +4257,7 @@ web服务器就是web项目的容器，我们将开发好的web项目部署到we
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"个人学习博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"比特张的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/JavaWeb-1/","name":"JavaWeb(1)"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/09/16/day08-JSP/","name":"day08-JSP"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"比特张的博客","url":"http://example.com/","keywords":"zdy","description":"个人学习博客","author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"个人学习博客"},"publisher":{"@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"day08-JSP","description":"个人学习博客","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/09/16/day08-JSP/"},"author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"比特张的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/09/16/day08-JSP/","wordCount":0,"datePublished":"2022-09-16T15:30:17.000Z","dateModified":"2022-09-19T01:07:55.946Z","articleSection":"JavaWeb(1)","keywords":"JSP","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"个人学习博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"比特张的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/JavaWeb-1/","name":"JavaWeb(1)"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/09/16/day08-JSP/","name":"day08-JSP"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"比特张的博客","url":"http://example.com/","keywords":"zdy","description":"个人学习博客","author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"个人学习博客"},"publisher":{"@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"day08-JSP","description":"个人学习博客","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/09/16/day08-JSP/"},"author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"比特张的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/09/16/day08-JSP/","wordCount":0,"datePublished":"2022-09-16T15:30:17.000Z","dateModified":"2022-09-28T11:50:24.525Z","articleSection":"JavaWeb(1)","keywords":"JSP","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
