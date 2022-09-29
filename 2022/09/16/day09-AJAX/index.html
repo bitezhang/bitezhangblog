@@ -44,7 +44,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2022-09-16T15:30:37.000Z">
-<meta property="article:modified_time" content="2022-09-19T01:08:09.251Z">
+<meta property="article:modified_time" content="2022-09-29T05:48:14.899Z">
 <meta property="article:author" content="bitezhang">
 <meta property="article:tag" content="AJAX">
 <meta name="twitter:card" content="summary">
@@ -1628,7 +1628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"../../../../js/app.js","parallax":"../../../../js/plugins/parallax.js","rightMenu":"../../../../js/plugins/rightMenu.js","rightMenus":"../../../../js/plugins/rightMenus.js","sites":"../../../../js/plugins/tags/sites.js","friends":"../../../../js/plugins/tags/friends.js","contributors":"../../../../js/plugins/tags/contributors.js","search":"../../../../js/search/hexo.js"},"css":{"style":"../../../../css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1664430384363),
+    lastupdate: new Date(1664430521289),
     sidebar: {
       for_page: ["blogger","category","tagcloud","text","webinfo"],
       for_post: ["toc"],
@@ -2516,10 +2516,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </blockquote>
 <h3 id="1-2-同步与异步"><a href="#1-2-同步与异步" class="headerlink" title="1.2 同步与异步"></a>1.2 同步与异步</h3><ol>
 <li><p>同步请求</p>
-<p> <img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117152902719.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117152902719.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117152902719"></p>
+<p> <img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134729.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134729.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 </li>
 <li><p>异步请求</p>
-<p> <img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117152919534.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117152919534.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117152919534"></p>
+<p> <img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134738.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134738.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 </li>
 </ol>
 <h3 id="1-3-异步交互的使用场景"><a href="#1-3-异步交互的使用场景" class="headerlink" title="1.3 异步交互的使用场景"></a>1.3 异步交互的使用场景</h3><blockquote>
@@ -2531,7 +2531,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li>注册功能中：检测用户名是否可用</li>
 </ul>
 </blockquote>
-<h2 id="二、AJAX实现"><a href="#二、AJAX实现" class="headerlink" title="二、AJAX实现"></a>二、AJAX实现</h2><h3 id="2-1-ajax异步交互的实现流程"><a href="#2-1-ajax异步交互的实现流程" class="headerlink" title="2.1 ajax异步交互的实现流程"></a>2.1 ajax异步交互的实现流程</h3><p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117163430672.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117163430672.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117163430672"></p>
+<h2 id="二、AJAX实现"><a href="#二、AJAX实现" class="headerlink" title="二、AJAX实现"></a>二、AJAX实现</h2><h3 id="2-1-ajax异步交互的实现流程"><a href="#2-1-ajax异步交互的实现流程" class="headerlink" title="2.1 ajax异步交互的实现流程"></a>2.1 ajax异步交互的实现流程</h3><p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134746.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134746.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h3 id="2-2-ajax的代码实现"><a href="#2-2-ajax的代码实现" class="headerlink" title="2.2 ajax的代码实现"></a>2.2 ajax的代码实现</h3><h4 id="2-2-1-ajax实现案例准备"><a href="#2-2-1-ajax实现案例准备" class="headerlink" title="2.2.1 ajax实现案例准备"></a>2.2.1 ajax实现案例准备</h4><ul>
 <li><p>创建java web工程</p>
 </li>
@@ -2608,13 +2608,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>ajax既然是实现前后端之间异步通信的技术，必然要考虑如何将前端的数据提交到服务器，如何将服务器的数据响应到前端并且能够被前端识别。</p>
 <p>JSON就是不同系统之间、前后端之间、不同语言之间进行数据交互所遵守的一种数据的格式。</p>
 </blockquote>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117222918677.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117222918677.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117222918677"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134802.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134802.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h3 id="3-2-JSON格式"><a href="#3-2-JSON格式" class="headerlink" title="3.2 JSON格式"></a>3.2 JSON格式</h3><ul>
 <li>对象和Map 转换成 <code>&#123;key:value , key:value,...&#125;</code></li>
 <li>数组和集合转换成<code>[e1,e2,e3,...]</code></li>
 <li>JSON格式可以嵌套</li>
 </ul>
-<p><img src="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117225246104.png" class="lazyload" data-srcset="../../../learninfo/javaWeb/%E7%AC%94%E8%AE%B0/08-AJAX/imgs/image-20211117225246104.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211117225246104"></p>
+<p><img src="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134810.png" class="lazyload" data-srcset="https://cdn.staticaly.com/gh/bitezhang/blogzdy@master/javaweb/ajax/20220929134810.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <h3 id="3-3-JSON格式转换"><a href="#3-3-JSON格式转换" class="headerlink" title="3.3 JSON格式转换"></a>3.3 JSON格式转换</h3><h4 id="3-3-1-前端JS对象与JSON格式转换"><a href="#3-3-1-前端JS对象与JSON格式转换" class="headerlink" title="3.3.1 前端JS对象与JSON格式转换"></a>3.3.1 前端JS对象与JSON格式转换</h4><ul>
 <li><p>JS对象转换成JSON格式字符串</p>
   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//创建JS对象</span></span><br><span class="line"><span class="keyword">var</span> obj = &#123;<span class="attr">stuNum</span>:<span class="string">&quot;10001&quot;</span>,<span class="attr">stuName</span>:<span class="string">&quot;张三&quot;</span>&#125;;</span><br><span class="line">obj.<span class="property">stuGender</span> = <span class="string">&quot;男&quot;</span>;</span><br><span class="line"><span class="comment">//将JS对象转换成json格式字符串</span></span><br><span class="line"><span class="keyword">var</span> jsonStr = <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(obj);</span><br></pre></td></tr></table></figure>
@@ -2665,10 +2665,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-09-19T09:08:09+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-09-29T13:48:14+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年9月19日</p>
+    <p>更新于：2022年9月29日</p>
   </a>
 </div>
 
@@ -3506,7 +3506,7 @@ Servlet是一个动态网页技术，客户端通过请求Servlet类可以相应
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"个人学习博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"比特张的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/JavaWeb-1/","name":"JavaWeb(1)"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/09/16/day09-AJAX/","name":"day09-AJAX"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"比特张的博客","url":"http://example.com/","keywords":"zdy","description":"个人学习博客","author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"个人学习博客"},"publisher":{"@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"day09-AJAX","description":"个人学习博客","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/09/16/day09-AJAX/"},"author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"比特张的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/09/16/day09-AJAX/","wordCount":0,"datePublished":"2022-09-16T15:30:37.000Z","dateModified":"2022-09-19T01:08:09.251Z","articleSection":"JavaWeb(1)","keywords":"AJAX","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"个人学习博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"比特张的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/JavaWeb-1/","name":"JavaWeb(1)"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/09/16/day09-AJAX/","name":"day09-AJAX"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"比特张的博客","url":"http://example.com/","keywords":"zdy","description":"个人学习博客","author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"个人学习博客"},"publisher":{"@type":"Organization","name":"比特张的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"day09-AJAX","description":"个人学习博客","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/09/16/day09-AJAX/"},"author":{"@type":"Person","name":"bitezhang","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"比特张的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/09/16/day09-AJAX/","wordCount":0,"datePublished":"2022-09-16T15:30:37.000Z","dateModified":"2022-09-29T05:48:14.899Z","articleSection":"JavaWeb(1)","keywords":"AJAX","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
